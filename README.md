@@ -2,10 +2,13 @@
  
 - Projeto para gerenciamento de Cursos
 
-- URL da Aplicação: 
-```
-http://localhost:4200/courses
-```
+
+- Ao acessar `http://localhost:4200/courses` é listado todos os cursos.
+![curso1](https://user-images.githubusercontent.com/30246572/134065671-5c8e9c69-77bd-405a-a3da-80574d34b681.png)
+
+- Ao acessar `http://localhost:4200/courses/info/:id` ela exibe uma tela que possibilita a alteração das informações do curso, onde id é a indentificaçao do curso.
+![curso2](https://user-images.githubusercontent.com/30246572/134065680-69da4afe-d4b7-4b47-a9a0-d35fae1a903f.png)
+
 
 # Tecnologias utilizadas
 - Angular 8;
@@ -16,5 +19,5 @@ http://localhost:4200/courses
 
 # Como compilar e executar o programa
 
-- Run `ng serve` for a dev server in course-manager. Navigate to `http://localhost:4200/courses`. The app will automatically reload if you change any of the source files.
-- Run `node serve.js` for a dev server in course-manager-server.
+- Executar `ng serve` em um servidor de desenvolvimento na pasta course-manager. Navegar para `http://localhost:4200/courses`. 
+- Executar `node serve.js` em um servidor de desenvolvimento na pasta course-manager-server.
